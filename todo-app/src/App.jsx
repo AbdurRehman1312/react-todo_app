@@ -1,10 +1,12 @@
 import './App.css'
-import { Button } from './components/ui/button'
+import Todo from './components/Todo'
 
 function App() {
   return (
     <>
-    <Button>Click Me</Button>
+    <div className='flex justify-center items-center w-full h-screen bg-zinc-900'>
+    <Todo />
+    </div>
     </>
   )
 }
